@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79150566E8B00EF592F1D6DE /* Pods_MyMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD05CC401B21225EBC6BF988 /* Pods_MyMemory.framework */; };
 		D65651241FFA07A400F990A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65651231FFA07A400F990A2 /* AppDelegate.swift */; };
 		D65651261FFA07A400F990A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65651251FFA07A400F990A2 /* ViewController.swift */; };
 		D65651291FFA07A400F990A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65651271FFA07A400F990A2 /* Main.storyboard */; };
 		D656512C1FFA07A400F990A2 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D656512A1FFA07A400F990A2 /* MyMemory.xcdatamodeld */; };
 		D656512E1FFA07A400F990A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D656512D1FFA07A400F990A2 /* Assets.xcassets */; };
 		D65651311FFA07A400F990A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D656512F1FFA07A400F990A2 /* LaunchScreen.storyboard */; };
+		D65651391FFA16C000F990A2 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65651381FFA16C000F990A2 /* MemoListVC.swift */; };
+		D656513B1FFA16DB00F990A2 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656513A1FFA16DA00F990A2 /* MemoFormVC.swift */; };
+		D656513D1FFA171400F990A2 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656513C1FFA171400F990A2 /* MemoReadVC.swift */; };
+		D656513F1FFA175B00F990A2 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656513E1FFA175B00F990A2 /* MemoCell.swift */; };
+		D65651411FFA187000F990A2 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65651401FFA187000F990A2 /* MemoData.swift */; };
+		D6D252992015AC7D00BD4CC3 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6CEE2BF3F7AAF33AB67198 /* Pods-MyMemory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory.debug.xcconfig"; sourceTree = "<group>"; };
+		52C2BB78B5FC66F61BE1F665 /* Pods-MyMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMemory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory.release.xcconfig"; sourceTree = "<group>"; };
 		D65651201FFA07A400F990A2 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65651231FFA07A400F990A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D65651251FFA07A400F990A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		D656512D1FFA07A400F990A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65651301FFA07A400F990A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65651321FFA07A400F990A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65651381FFA16C000F990A2 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		D656513A1FFA16DA00F990A2 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		D656513C1FFA171400F990A2 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		D656513E1FFA175B00F990A2 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		D65651401FFA187000F990A2 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		FD05CC401B21225EBC6BF988 /* Pods_MyMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79150566E8B00EF592F1D6DE /* Pods_MyMemory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1528F9079C07C431BE5CF87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6CEE2BF3F7AAF33AB67198 /* Pods-MyMemory.debug.xcconfig */,
+				52C2BB78B5FC66F61BE1F665 /* Pods-MyMemory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A615F74B90CFA1FDE102CCAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD05CC401B21225EBC6BF988 /* Pods_MyMemory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D65651171FFA07A400F990A2 = {
 			isa = PBXGroup;
 			children = (
 				D65651221FFA07A400F990A2 /* MyMemory */,
 				D65651211FFA07A400F990A2 /* Products */,
+				1528F9079C07C431BE5CF87C /* Pods */,
+				A615F74B90CFA1FDE102CCAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +92,19 @@
 		D65651221FFA07A400F990A2 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				D65651381FFA16C000F990A2 /* MemoListVC.swift */,
+				D656513A1FFA16DA00F990A2 /* MemoFormVC.swift */,
 				D65651231FFA07A400F990A2 /* AppDelegate.swift */,
 				D65651251FFA07A400F990A2 /* ViewController.swift */,
+				D656513C1FFA171400F990A2 /* MemoReadVC.swift */,
 				D65651271FFA07A400F990A2 /* Main.storyboard */,
+				D656513E1FFA175B00F990A2 /* MemoCell.swift */,
 				D656512D1FFA07A400F990A2 /* Assets.xcassets */,
 				D656512F1FFA07A400F990A2 /* LaunchScreen.storyboard */,
 				D65651321FFA07A400F990A2 /* Info.plist */,
 				D656512A1FFA07A400F990A2 /* MyMemory.xcdatamodeld */,
+				D65651401FFA187000F990A2 /* MemoData.swift */,
+				D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */,
 			);
 			path = MyMemory;
 			sourceTree = "<group>";
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D65651351FFA07A400F990A2 /* Build configuration list for PBXNativeTarget "MyMemory" */;
 			buildPhases = (
+				07956CCE38C4FF4459C0485C /* [CP] Check Pods Manifest.lock */,
 				D656511C1FFA07A400F990A2 /* Sources */,
 				D656511D1FFA07A400F990A2 /* Frameworks */,
 				D656511E1FFA07A400F990A2 /* Resources */,
+				6B4250C11FCD12440226CC86 /* [CP] Embed Pods Frameworks */,
+				B164447FD5AF72458CDE08D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +179,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07956CCE38C4FF4459C0485C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4250C11FCD12440226CC86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B164447FD5AF72458CDE08D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMemory/Pods-MyMemory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D656511C1FFA07A400F990A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D252992015AC7D00BD4CC3 /* CSLogButton.swift in Sources */,
+				D656513F1FFA175B00F990A2 /* MemoCell.swift in Sources */,
+				D65651411FFA187000F990A2 /* MemoData.swift in Sources */,
 				D656512C1FFA07A400F990A2 /* MyMemory.xcdatamodeld in Sources */,
+				D656513B1FFA16DB00F990A2 /* MemoFormVC.swift in Sources */,
+				D656513D1FFA171400F990A2 /* MemoReadVC.swift in Sources */,
 				D65651261FFA07A400F990A2 /* ViewController.swift in Sources */,
+				D65651391FFA16C000F990A2 /* MemoListVC.swift in Sources */,
 				D65651241FFA07A400F990A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +375,7 @@
 		};
 		D65651361FFA07A400F990A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6CEE2BF3F7AAF33AB67198 /* Pods-MyMemory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +391,7 @@
 		};
 		D65651371FFA07A400F990A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C2BB78B5FC66F61BE1F665 /* Pods-MyMemory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
