@@ -19,8 +19,13 @@
 		D656513D1FFA171400F990A2 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656513C1FFA171400F990A2 /* MemoReadVC.swift */; };
 		D656513F1FFA175B00F990A2 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656513E1FFA175B00F990A2 /* MemoCell.swift */; };
 		D65651411FFA187000F990A2 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65651401FFA187000F990A2 /* MemoData.swift */; };
+		D65E59832019D43300F9A579 /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E59822019D43300F9A579 /* UserInfoManager.swift */; };
 		D67A07042015D2570042DE85 /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A07032015D2570042DE85 /* SideBarVC.swift */; };
 		D67A07082015DF9E0042DE85 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A07072015DF9E0042DE85 /* ProfileVC.swift */; };
+		D696ADBF2020DBEC00DDF069 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D696ADBE2020DBEC00DDF069 /* Tutorial.storyboard */; };
+		D696ADC12020E8D900DDF069 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696ADC02020E8D900DDF069 /* Utils.swift */; };
+		D696ADC32020E9C400DDF069 /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696ADC22020E9C400DDF069 /* TutorialContentsVC.swift */; };
+		D696ADC62020EBBD00DDF069 /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696ADC52020EBBD00DDF069 /* TutorialMasterVC.swift */; };
 		D6D252992015AC7D00BD4CC3 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +45,13 @@
 		D656513C1FFA171400F990A2 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		D656513E1FFA175B00F990A2 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		D65651401FFA187000F990A2 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		D65E59822019D43300F9A579 /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 		D67A07032015D2570042DE85 /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
 		D67A07072015DF9E0042DE85 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D696ADBE2020DBEC00DDF069 /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		D696ADC02020E8D900DDF069 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D696ADC22020E9C400DDF069 /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
+		D696ADC52020EBBD00DDF069 /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
 		FD05CC401B21225EBC6BF988 /* Pods_MyMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +106,7 @@
 		D65651221FFA07A400F990A2 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				D696ADC42020E9D200DDF069 /* Tutorial */,
 				D65651381FFA16C000F990A2 /* MemoListVC.swift */,
 				D67A07072015DF9E0042DE85 /* ProfileVC.swift */,
 				D656513A1FFA16DA00F990A2 /* MemoFormVC.swift */,
@@ -103,6 +114,7 @@
 				D65651251FFA07A400F990A2 /* ViewController.swift */,
 				D656513C1FFA171400F990A2 /* MemoReadVC.swift */,
 				D65651271FFA07A400F990A2 /* Main.storyboard */,
+				D65E59822019D43300F9A579 /* UserInfoManager.swift */,
 				D67A07032015D2570042DE85 /* SideBarVC.swift */,
 				D656513E1FFA175B00F990A2 /* MemoCell.swift */,
 				D656512D1FFA07A400F990A2 /* Assets.xcassets */,
@@ -111,8 +123,19 @@
 				D656512A1FFA07A400F990A2 /* MyMemory.xcdatamodeld */,
 				D65651401FFA187000F990A2 /* MemoData.swift */,
 				D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */,
+				D696ADC02020E8D900DDF069 /* Utils.swift */,
 			);
 			path = MyMemory;
+			sourceTree = "<group>";
+		};
+		D696ADC42020E9D200DDF069 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				D696ADBE2020DBEC00DDF069 /* Tutorial.storyboard */,
+				D696ADC22020E9C400DDF069 /* TutorialContentsVC.swift */,
+				D696ADC52020EBBD00DDF069 /* TutorialMasterVC.swift */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +202,7 @@
 			files = (
 				D65651311FFA07A400F990A2 /* LaunchScreen.storyboard in Resources */,
 				D656512E1FFA07A400F990A2 /* Assets.xcassets in Resources */,
+				D696ADBF2020DBEC00DDF069 /* Tutorial.storyboard in Resources */,
 				D65651291FFA07A400F990A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,13 +264,17 @@
 			files = (
 				D6D252992015AC7D00BD4CC3 /* CSLogButton.swift in Sources */,
 				D656513F1FFA175B00F990A2 /* MemoCell.swift in Sources */,
+				D65E59832019D43300F9A579 /* UserInfoManager.swift in Sources */,
 				D65651411FFA187000F990A2 /* MemoData.swift in Sources */,
 				D656512C1FFA07A400F990A2 /* MyMemory.xcdatamodeld in Sources */,
+				D696ADC12020E8D900DDF069 /* Utils.swift in Sources */,
 				D656513B1FFA16DB00F990A2 /* MemoFormVC.swift in Sources */,
 				D67A07042015D2570042DE85 /* SideBarVC.swift in Sources */,
+				D696ADC32020E9C400DDF069 /* TutorialContentsVC.swift in Sources */,
 				D656513D1FFA171400F990A2 /* MemoReadVC.swift in Sources */,
 				D65651261FFA07A400F990A2 /* ViewController.swift in Sources */,
 				D65651391FFA16C000F990A2 /* MemoListVC.swift in Sources */,
+				D696ADC62020EBBD00DDF069 /* TutorialMasterVC.swift in Sources */,
 				D67A07082015DF9E0042DE85 /* ProfileVC.swift in Sources */,
 				D65651241FFA07A400F990A2 /* AppDelegate.swift in Sources */,
 			);
