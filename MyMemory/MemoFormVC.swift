@@ -11,6 +11,7 @@ import UIKit
 class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate {
 
     var subject: String!
+    lazy var dao = MemoDAO()
     
     @IBOutlet weak var contents: UITextView!
     @IBOutlet weak var preview: UIImageView!
@@ -37,9 +38,8 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         data.contents = self.contents.text
         data.image = self.preview.image
         data.regdate = Date()
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.memoList.append(data)
+                
+        self.dao.insert(data)
         
         _ = self.navigationController?.popViewController(animated: true)
     }

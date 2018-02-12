@@ -27,6 +27,7 @@
 		D696ADC32020E9C400DDF069 /* TutorialContentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696ADC22020E9C400DDF069 /* TutorialContentsVC.swift */; };
 		D696ADC62020EBBD00DDF069 /* TutorialMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696ADC52020EBBD00DDF069 /* TutorialMasterVC.swift */; };
 		D696ADC820218BA700DDF069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D696ADC720218BA700DDF069 /* GoogleService-Info.plist */; };
+		D6A983AE20318188005638E3 /* MemoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A983AD20318188005638E3 /* MemoDAO.swift */; };
 		D6D252992015AC7D00BD4CC3 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		D696ADC22020E9C400DDF069 /* TutorialContentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentsVC.swift; sourceTree = "<group>"; };
 		D696ADC52020EBBD00DDF069 /* TutorialMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMasterVC.swift; sourceTree = "<group>"; };
 		D696ADC720218BA700DDF069 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6A983AD20318188005638E3 /* MemoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDAO.swift; sourceTree = "<group>"; };
 		D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
 		FD05CC401B21225EBC6BF988 /* Pods_MyMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				D65651321FFA07A400F990A2 /* Info.plist */,
 				D656512A1FFA07A400F990A2 /* MyMemory.xcdatamodeld */,
 				D65651401FFA187000F990A2 /* MemoData.swift */,
+				D6A983AD20318188005638E3 /* MemoDAO.swift */,
 				D6D252982015AC7D00BD4CC3 /* CSLogButton.swift */,
 				D696ADC02020E8D900DDF069 /* Utils.swift */,
 			);
@@ -276,6 +279,7 @@
 				D67A07042015D2570042DE85 /* SideBarVC.swift in Sources */,
 				D696ADC32020E9C400DDF069 /* TutorialContentsVC.swift in Sources */,
 				D656513D1FFA171400F990A2 /* MemoReadVC.swift in Sources */,
+				D6A983AE20318188005638E3 /* MemoDAO.swift in Sources */,
 				D65651261FFA07A400F990A2 /* ViewController.swift in Sources */,
 				D65651391FFA16C000F990A2 /* MemoListVC.swift in Sources */,
 				D696ADC62020EBBD00DDF069 /* TutorialMasterVC.swift in Sources */,
